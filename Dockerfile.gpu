@@ -14,4 +14,3 @@ RUN mkdir /gpt-2
 WORKDIR /gpt-2
 ADD . /gpt-2
 RUN pip3 install -r https://raw.githubusercontent.com/overhandattic33/gpt2/master/requirements.txt
-RUN python3 https://raw.githubusercontent.com/overhandattic33/gpt2/master/download_model.py 1558M
